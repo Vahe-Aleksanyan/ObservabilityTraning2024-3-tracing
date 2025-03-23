@@ -1,0 +1,5 @@
+-- init.sql
+CREATE TABLE IF NOT EXISTS MyModels (
+    Id SERIAL PRIMARY KEY,
+    Name TEXT NOT NULL
+);
