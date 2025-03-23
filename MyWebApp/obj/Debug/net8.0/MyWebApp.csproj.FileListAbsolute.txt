@@ -42,3 +42,7 @@
 /Users/vahealeksanyan/Desktop/MyWebApp/MyWebApp/obj/Debug/net8.0/MyWebApp.pdb
 /Users/vahealeksanyan/Desktop/MyWebApp/MyWebApp/obj/Debug/net8.0/MyWebApp.genruntimeconfig.cache
 /Users/vahealeksanyan/Desktop/MyWebApp/MyWebApp/obj/Debug/net8.0/ref/MyWebApp.dll
+/Users/vahealeksanyan/Desktop/MyWebApp/MyWebApp/bin/Debug/net8.0/NLog.dll
+/Users/vahealeksanyan/Desktop/MyWebApp/MyWebApp/bin/Debug/net8.0/NLog.Extensions.Logging.dll
+/Users/vahealeksanyan/Desktop/MyWebApp/MyWebApp/bin/Debug/net8.0/NLog.Web.AspNetCore.dll
+/Users/vahealeksanyan/Desktop/MyWebApp/MyWebApp/obj/Debug/net8.0/MyWebApp.sourcelink.json

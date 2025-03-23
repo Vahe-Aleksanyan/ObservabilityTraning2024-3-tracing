@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using MyWebApp.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace MyWebApp.Controllers
 {
@@ -11,10 +12,12 @@ namespace MyWebApp.Controllers
     [ApiController]
     public class MyController : ControllerBase
     {
+         private readonly ILogger<MyController> _logger;
         private readonly MyDbContext _context;
 
-        public MyController(MyDbContext context)
+        public MyController(MyDbContext context, ILogger<MyController> logger)
         {
+            _logger = logger;
             _context = context;
         }
 
