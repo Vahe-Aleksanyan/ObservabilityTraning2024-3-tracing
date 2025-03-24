@@ -8,10 +8,14 @@ services:
       dockerfile: Dockerfile
     ports:
       - "5001:80"
-    depends_on:
-      - db
+    volumes:
+      - ./logs:/app/logs  # Mount host logs directory
     environment:
       - ConnectionStrings__DefaultConnection=Host=db;Database=mydatabase;Username=postgres;Password=mysecretpassword
+      - NLog__ConfigurationPath=/app/nlog.docker.config  # Docker-specific config
+    depends_on:
+      db:
+        condition: service_healthy
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:80/health"]
       interval: 30s
@@ -19,6 +23,7 @@ services:
       retries: 3
     networks:
       - app-network
+
 
   db:
     image: postgres:latest
@@ -28,6 +33,7 @@ services:
       POSTGRES_PASSWORD: mysecretpassword
     volumes:
       - postgres-data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d mydatabase"]
       interval: 30s
@@ -35,6 +41,7 @@ services:
       retries: 3
     networks:
       - app-network
+
 
   prometheus:
     image: prom/prometheus:v2.30.0

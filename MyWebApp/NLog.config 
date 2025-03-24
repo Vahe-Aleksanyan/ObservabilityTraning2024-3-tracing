@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<nlog xmlns="http://nlog.github.io/schemas/nlog.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <targets>
-        <target name="logfile" xsi:type="File" fileName="logs/app.log" layout="${longdate} ${level} ${message} ${exception}" />
-        <target name="logconsole" xsi:type="Console" layout="${longdate} ${level} ${message} ${exception}" />
-    </targets>
-    <rules>
-        <logger name="*" minlevel="Trace" writeTo="logfile,logconsole" />
-    </rules>
-</nlog>
+<!-- Add this target -->
+<target name="jsonFile" xsi:type="File" fileName="logs/log-${shortdate}.json">
+  <layout xsi:type="JsonLayout">
+    <attribute name="time" layout="${longdate}" />
+    <attribute name="level" layout="${level}" />
+    <attribute name="message" layout="${message}" />
+    <attribute name="properties" encode="false" >
+      <layout xsi:type="JsonLayout" includeAllProperties="true" />
+    </attribute>
+  </layout>
+</target>

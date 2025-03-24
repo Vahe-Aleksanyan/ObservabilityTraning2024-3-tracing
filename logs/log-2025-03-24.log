@@ -1,0 +1,548 @@
+2025-03-24 10:49:49.3905|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.387 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 9.0.1 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None"
+Query=dbug: 03/24/2025 10:49:49.387 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 9.0.1 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None
+2025-03-24 10:49:49.4129|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.412 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection."
+Query=dbug: 03/24/2025 10:49:49.412 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2025-03-24 10:49:49.4260|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.426 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (12ms)."
+Query=dbug: 03/24/2025 10:49:49.426 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (12ms).
+2025-03-24 10:49:49.4278|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.427 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:49:49.427 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:49:49.4304|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.430 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:49:49.430 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:49:49.4752|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.475 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:49:49.475 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:49:49.4771|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.477 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:49:49.477 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:49:49.4818|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.481 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (3ms)."
+Query=dbug: 03/24/2025 10:49:49.481 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (3ms).
+2025-03-24 10:49:49.4860|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.486 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'."
+Query=dbug: 03/24/2025 10:49:49.486 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2025-03-24 10:49:49.4903|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.490 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (4ms)."
+Query=dbug: 03/24/2025 10:49:49.490 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (4ms).
+2025-03-24 10:49:49.4920|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.491 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (6ms)."
+Query=dbug: 03/24/2025 10:49:49.491 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (6ms).
+2025-03-24 10:49:49.4926|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.492 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:49:49.492 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:49:49.5046|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.504 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:49:49.504 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:49:49.5082|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.508 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+      FROM pg_class AS cls
+      JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+      WHERE
+              cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+              ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+              -- Exclude tables which are members of PG extensions
+              NOT EXISTS (
+                  SELECT 1 FROM pg_depend WHERE
+                      classid=(
+                          SELECT cls.oid
+                          FROM pg_class AS cls
+                                   JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                          WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                      ) AND
+                      objid=cls.oid AND
+                      deptype IN ('e', 'x')
+              )"
+Query=dbug: 03/24/2025 10:49:49.508 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+      FROM pg_class AS cls
+      JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+      WHERE
+              cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+              ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+              -- Exclude tables which are members of PG extensions
+              NOT EXISTS (
+                  SELECT 1 FROM pg_depend WHERE
+                      classid=(
+                          SELECT cls.oid
+                          FROM pg_class AS cls
+                                   JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                          WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                      ) AND
+                      objid=cls.oid AND
+                      deptype IN ('e', 'x')
+              )
+2025-03-24 10:49:49.5373|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM pg_class AS cls
+JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+WHERE
+        cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+        ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+        -- Exclude tables which are members of PG extensions
+        NOT EXISTS (
+            SELECT 1 FROM pg_depend WHERE
+                classid=(
+                    SELECT cls.oid
+                    FROM pg_class AS cls
+                             JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                    WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                ) AND
+                objid=cls.oid AND
+                deptype IN ('e', 'x')
+        )"
+elapsed=29, commandType=Text, commandTimeout=30, newLine=
+, commandText=SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM pg_class AS cls
+JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+WHERE
+        cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+        ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+        -- Exclude tables which are members of PG extensions
+        NOT EXISTS (
+            SELECT 1 FROM pg_depend WHERE
+                classid=(
+                    SELECT cls.oid
+                    FROM pg_class AS cls
+                             JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                    WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                ) AND
+                objid=cls.oid AND
+                deptype IN ('e', 'x')
+        ), EventId=20101, EventName=Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted
+2025-03-24 10:49:49.5431|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "info: 03/24/2025 10:49:49.543 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+      FROM pg_class AS cls
+      JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+      WHERE
+              cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+              ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+              -- Exclude tables which are members of PG extensions
+              NOT EXISTS (
+                  SELECT 1 FROM pg_depend WHERE
+                      classid=(
+                          SELECT cls.oid
+                          FROM pg_class AS cls
+                                   JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                          WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                      ) AND
+                      objid=cls.oid AND
+                      deptype IN ('e', 'x')
+              )"
+Query=info: 03/24/2025 10:49:49.543 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+      FROM pg_class AS cls
+      JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+      WHERE
+              cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+              ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+              -- Exclude tables which are members of PG extensions
+              NOT EXISTS (
+                  SELECT 1 FROM pg_depend WHERE
+                      classid=(
+                          SELECT cls.oid
+                          FROM pg_class AS cls
+                                   JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                          WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                      ) AND
+                      objid=cls.oid AND
+                      deptype IN ('e', 'x')
+              )
+2025-03-24 10:49:49.5457|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.545 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:49:49.545 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:49:49.5473|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.547 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (1ms)."
+Query=dbug: 03/24/2025 10:49:49.547 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (1ms).
+2025-03-24 10:49:49.5488|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.548 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'MyDbContext' disposed."
+Query=dbug: 03/24/2025 10:49:49.548 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'MyDbContext' disposed.
+2025-03-24 10:49:49.5511|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.551 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:49:49.551 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:49:49.5533|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:49:49.553 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'mydatabase' on server 'tcp://db:5432' (1ms)."
+Query=dbug: 03/24/2025 10:49:49.553 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'mydatabase' on server 'tcp://db:5432' (1ms).
+2025-03-24 10:49:49.5863|WARN|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+path=/root/.aspnet/DataProtection-Keys, EventId=60, EventName=UsingEphemeralFileSystemLocationInContainer
+2025-03-24 10:49:49.6056|WARN|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|No XML encryptor configured. Key {f53aaa12-34df-4acd-8e8e-0bfdb400a3a3} may be persisted to storage in unencrypted form.
+KeyId={f53aaa12-34df-4acd-8e8e-0bfdb400a3a3}, EventId=35, EventName=NoXMLEncryptorConfiguredKeyMayBePersistedToStorageInUnencryptedForm
+2025-03-24 10:49:49.6309|INFO|Microsoft.Hosting.Lifetime|Now listening on: "http://[::]:80"
+address=http://[::]:80, EventId=14, EventName=ListeningOnAddress
+2025-03-24 10:49:49.6337|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+
+2025-03-24 10:49:49.6347|INFO|Microsoft.Hosting.Lifetime|Hosting environment: "Production"
+EnvName=Production
+2025-03-24 10:49:49.6361|INFO|Microsoft.Hosting.Lifetime|Content root path: "/app"
+ContentRoot=/app
+2025-03-24 10:49:53.7562|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+EventId=3, EventName=FailedToDeterminePort
+2025-03-24 10:49:53.7591|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:49:53.8165|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:50:08.7205|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:50:08.7404|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:50:19.0860|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-24 10:50:19.0928|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-24 10:50:23.7007|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:50:23.7192|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:50:38.6993|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:50:38.7220|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:50:49.1621|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-24 10:50:49.1644|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-24 10:50:53.2884|INFO|RequestLoggingMiddleware|Request started: "GET" /api/My  [Accept, */*], [Host, localhost:5001], [User-Agent, curl/8.4.0]
+Method=GET, Path=/api/My, QueryString=, Headers=[Accept, */*], [Host, localhost:5001], [User-Agent, curl/8.4.0]
+2025-03-24 10:50:53.3431|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.343 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 9.0.1 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None"
+Query=dbug: 03/24/2025 10:50:53.343 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 9.0.1 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None
+2025-03-24 10:50:53.3588|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.358 CoreEventId.QueryCompilationStarting[10111] (Microsoft.EntityFrameworkCore.Query) 
+      Compiling query expression: 
+      'DbSet<MyModel>()'"
+Query=dbug: 03/24/2025 10:50:53.358 CoreEventId.QueryCompilationStarting[10111] (Microsoft.EntityFrameworkCore.Query) 
+      Compiling query expression: 
+      'DbSet<MyModel>()'
+2025-03-24 10:50:53.4502|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.450 CoreEventId.QueryExecutionPlanned[10107] (Microsoft.EntityFrameworkCore.Query) 
+      Generated query execution expression: 
+      'queryContext => SingleQueryingEnumerable.Create<MyModel>(
+          relationalQueryContext: (RelationalQueryContext)queryContext, 
+          relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+              Projection Mapping:
+                  EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MyModel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MyModel.Name (string), 1] }
+              SELECT m.Id, m.Name
+              FROM MyModels AS m) | Resolver: c => new RelationalCommandCache(
+              c.Dependencies.MemoryCache, 
+              c.RelationalDependencies.QuerySqlGeneratorFactory, 
+              c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+              Projection Mapping:
+                  EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MyModel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MyModel.Name (string), 1] }
+              SELECT m.Id, m.Name
+              FROM MyModels AS m, 
+              False, 
+              new HashSet<string>(
+                  new string[]{ }, 
+                  StringComparer.Ordinal
+              )
+          )].GetRelationalCommandTemplate(parameters), 
+          readerColumns: null, 
+          shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+          {
+              MyModel entity;
+              entity = 
+              {
+                  MaterializationContext materializationContext1;
+                  IEntityType entityType1;
+                  MyModel instance1;
+                  InternalEntityEntry entry1;
+                  bool hasNullKey1;
+                  materializationContext1 = new MaterializationContext(
+                      [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                      queryContext.Context
+                  );
+                  instance1 = default(MyModel);
+                  entry1 = queryContext.TryGetEntry(
+                      key: [LIFTABLE Constant: Key: MyModel.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("MyWebApp.Models.MyModel").FindPrimaryKey()], 
+                      keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                      throwOnNullKey: True, 
+                      hasNullKey: hasNullKey1);
+                  !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                  {
+                      entityType1 = entry1.EntityType;
+                      return instance1 = (MyModel)entry1.Entity;
+                  } : 
+                  {
+                      ISnapshot shadowSnapshot1;
+                      shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                      entityType1 = [LIFTABLE Constant: EntityType: MyModel | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("MyWebApp.Models.MyModel")];
+                      instance1 = switch (entityType1)
+                      {
+                          case [LIFTABLE Constant: EntityType: MyModel | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("MyWebApp.Models.MyModel")]: 
+                              {
+                                  return 
+                                  {
+                                      MyModel instance;
+                                      instance = new MyModel();
+                                      instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                      instance.<Name>k__BackingField = dataReader.IsDBNull(1) ? default(string) : dataReader.GetString(1);
+                                      (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                          context: materializationContext1.Context, 
+                                          entity: instance, 
+                                          queryTrackingBehavior: TrackAll, 
+                                          structuralType: [LIFTABLE Constant: EntityType: MyModel | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("MyWebApp.Models.MyModel")]) : default(void);
+                                      return instance;
+                                  }}
+                          default: 
+                              default(MyModel)
+                      }
+                      ;
+                      entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                          entityType: entityType1, 
+                          entity: instance1, 
+                          snapshot: shadowSnapshot1);
+                      return instance1;
+                  } : default(void);
+                  return instance1;
+              };
+              return entity;
+          }, 
+          contextType: MyWebApp.Models.MyDbContext, 
+          standAloneStateManager: False, 
+          detailedErrorsEnabled: False, 
+          threadSafetyChecksEnabled: True)'"
+Query=dbug: 03/24/2025 10:50:53.450 CoreEventId.QueryExecutionPlanned[10107] (Microsoft.EntityFrameworkCore.Query) 
+      Generated query execution expression: 
+      'queryContext => SingleQueryingEnumerable.Create<MyModel>(
+          relationalQueryContext: (RelationalQueryContext)queryContext, 
+          relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+              Projection Mapping:
+                  EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MyModel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MyModel.Name (string), 1] }
+              SELECT m.Id, m.Name
+              FROM MyModels AS m) | Resolver: c => new RelationalCommandCache(
+              c.Dependencies.MemoryCache, 
+              c.RelationalDependencies.QuerySqlGeneratorFactory, 
+              c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+              Projection Mapping:
+                  EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: MyModel.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: MyModel.Name (string), 1] }
+              SELECT m.Id, m.Name
+              FROM MyModels AS m, 
+              False, 
+              new HashSet<string>(
+                  new string[]{ }, 
+                  StringComparer.Ordinal
+              )
+          )].GetRelationalCommandTemplate(parameters), 
+          readerColumns: null, 
+          shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+          {
+              MyModel entity;
+              entity = 
+              {
+                  MaterializationContext materializationContext1;
+                  IEntityType entityType1;
+                  MyModel instance1;
+                  InternalEntityEntry entry1;
+                  bool hasNullKey1;
+                  materializationContext1 = new MaterializationContext(
+                      [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                      queryContext.Context
+                  );
+                  instance1 = default(MyModel);
+                  entry1 = queryContext.TryGetEntry(
+                      key: [LIFTABLE Constant: Key: MyModel.Id PK | Resolver: c => c.Dependencies.Model.FindEntityType("MyWebApp.Models.MyModel").FindPrimaryKey()], 
+                      keyValues: new object[]{ (object)dataReader.GetInt32(0) }, 
+                      throwOnNullKey: True, 
+                      hasNullKey: hasNullKey1);
+                  !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                  {
+                      entityType1 = entry1.EntityType;
+                      return instance1 = (MyModel)entry1.Entity;
+                  } : 
+                  {
+                      ISnapshot shadowSnapshot1;
+                      shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                      entityType1 = [LIFTABLE Constant: EntityType: MyModel | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("MyWebApp.Models.MyModel")];
+                      instance1 = switch (entityType1)
+                      {
+                          case [LIFTABLE Constant: EntityType: MyModel | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("MyWebApp.Models.MyModel")]: 
+                              {
+                                  return 
+                                  {
+                                      MyModel instance;
+                                      instance = new MyModel();
+                                      instance.<Id>k__BackingField = dataReader.GetInt32(0);
+                                      instance.<Name>k__BackingField = dataReader.IsDBNull(1) ? default(string) : dataReader.GetString(1);
+                                      (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                          context: materializationContext1.Context, 
+                                          entity: instance, 
+                                          queryTrackingBehavior: TrackAll, 
+                                          structuralType: [LIFTABLE Constant: EntityType: MyModel | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("MyWebApp.Models.MyModel")]) : default(void);
+                                      return instance;
+                                  }}
+                          default: 
+                              default(MyModel)
+                      }
+                      ;
+                      entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                          entityType: entityType1, 
+                          entity: instance1, 
+                          snapshot: shadowSnapshot1);
+                      return instance1;
+                  } : default(void);
+                  return instance1;
+              };
+              return entity;
+          }, 
+          contextType: MyWebApp.Models.MyDbContext, 
+          standAloneStateManager: False, 
+          detailedErrorsEnabled: False, 
+          threadSafetyChecksEnabled: True)'
+2025-03-24 10:50:53.4648|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.464 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection."
+Query=dbug: 03/24/2025 10:50:53.464 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2025-03-24 10:50:53.4671|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.467 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (2ms)."
+Query=dbug: 03/24/2025 10:50:53.467 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (2ms).
+2025-03-24 10:50:53.4688|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.468 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:50:53.468 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:50:53.4707|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.470 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:50:53.470 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:50:53.4716|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.471 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'."
+Query=dbug: 03/24/2025 10:50:53.471 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteReader'.
+2025-03-24 10:50:53.4728|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.472 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (1ms)."
+Query=dbug: 03/24/2025 10:50:53.472 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteReader' (1ms).
+2025-03-24 10:50:53.4735|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.473 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (1ms)."
+Query=dbug: 03/24/2025 10:50:53.473 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-03-24 10:50:53.4748|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.474 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT m."Id", m."Name"
+      FROM "MyModels" AS m"
+Query=dbug: 03/24/2025 10:50:53.474 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT m."Id", m."Name"
+      FROM "MyModels" AS m
+2025-03-24 10:50:53.4805|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT m."Id", m."Name"
+FROM "MyModels" AS m"
+elapsed=6, commandType=Text, commandTimeout=30, newLine=
+, commandText=SELECT m."Id", m."Name"
+FROM "MyModels" AS m, EventId=20101, EventName=Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted
+2025-03-24 10:50:53.4805|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "info: 03/24/2025 10:50:53.481 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT m."Id", m."Name"
+      FROM "MyModels" AS m"
+Query=info: 03/24/2025 10:50:53.481 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT m."Id", m."Name"
+      FROM "MyModels" AS m
+2025-03-24 10:50:53.4974|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.497 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'MyDbContext' started tracking 'MyModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values."
+Query=dbug: 03/24/2025 10:50:53.497 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'MyDbContext' started tracking 'MyModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-03-24 10:50:53.5056|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.505 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'MyDbContext' started tracking 'MyModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values."
+Query=dbug: 03/24/2025 10:50:53.505 CoreEventId.StartedTracking[10806] (Microsoft.EntityFrameworkCore.ChangeTracking) 
+      Context 'MyDbContext' started tracking 'MyModel' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-03-24 10:50:53.5091|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.509 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:50:53.509 RelationalEventId.DataReaderClosing[20301] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Closing data reader to 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:50:53.5113|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.511 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'mydatabase' on server 'tcp://db:5432' is being disposed after spending 27ms reading results."
+Query=dbug: 03/24/2025 10:50:53.511 RelationalEventId.DataReaderDisposing[20300] (Microsoft.EntityFrameworkCore.Database.Command) 
+      A data reader for 'mydatabase' on server 'tcp://db:5432' is being disposed after spending 27ms reading results.
+2025-03-24 10:50:53.5132|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.513 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:50:53.513 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:50:53.5142|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.514 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (1ms)."
+Query=dbug: 03/24/2025 10:50:53.514 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (1ms).
+2025-03-24 10:50:53.5274|INFO|RequestLoggingMiddleware|Request completed: "GET" /api/My 200 "application/json; charset=utf-8"
+Method=GET, Path=/api/My, StatusCode=200, ContentType=application/json; charset=utf-8
+2025-03-24 10:50:53.5291|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.529 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'MyDbContext' disposed."
+Query=dbug: 03/24/2025 10:50:53.529 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'MyDbContext' disposed.
+2025-03-24 10:50:53.5311|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.531 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/24/2025 10:50:53.531 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-24 10:50:53.5332|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/24/2025 10:50:53.533 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'mydatabase' on server 'tcp://db:5432' (2ms)."
+Query=dbug: 03/24/2025 10:50:53.533 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'mydatabase' on server 'tcp://db:5432' (2ms).
+2025-03-24 10:50:53.7029|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:50:53.7141|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:51:08.6978|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:51:08.7149|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:51:19.2551|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-24 10:51:19.2589|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-24 10:51:23.6981|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:51:23.7186|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:51:38.6972|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:51:38.7133|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:51:49.3422|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-24 10:51:49.3441|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-24 10:51:53.6971|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:51:53.7112|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:52:08.6973|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:52:08.7081|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:52:19.4392|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-24 10:52:19.4409|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-24 10:52:23.6965|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:52:23.7104|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:52:38.6965|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-24 10:52:38.7119|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-24 10:52:47.3689|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+
