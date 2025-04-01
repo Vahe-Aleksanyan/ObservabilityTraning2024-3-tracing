@@ -13,24 +13,50 @@ services:
     environment:
       - ConnectionStrings__DefaultConnection=Host=db;Database=mydatabase;Username=postgres;Password=mysecretpassword
       - NLog__ConfigurationPath=/app/nlog.docker.config  # Docker-specific config
+      - OTEL_EXPORTER_JAEGER_AGENT_HOST=jaeger
+      - OTEL_EXPORTER_JAEGER_AGENT_PORT=6831
+      - OTEL_SERVICE_NAME=crud-service
+      - OTEL_RESOURCE_ATTRIBUTES=service.namespace=ObservabilityTraining
     depends_on:
       db:
         condition: service_healthy
+      jaeger:
+        condition: service_started
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:80/health"]
       interval: 30s
       timeout: 10s
-      retries: 3
+      retries: 5
+      start_period: 5s
     networks:
       - app-network
+  jaeger:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686"  # Jaeger UI
+      - "6831:6831/udp"  # Jaeger agent
+    networks:
+      - app-network
+    environment:
+      COLLECTOR_OTLP_ENABLED: "true"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:16686"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 5s
 
 
   db:
     image: postgres:latest
     environment:
-      POSTGRES_DB: mydatabase
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: mysecretpassword
+      - POSTGRES_DB=mydatabase
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=mysecretpassword
+      - OTEL_SERVICE_NAME=postgres
+      - OTEL_TRACES_EXPORTER=jaeger
+      - OTEL_EXPORTER_JAEGER_AGENT_HOST=jaeger
+      - OTEL_EXPORTER_JAEGER_AGENT_PORT=6831
     volumes:
       - postgres-data:/var/lib/postgresql/data
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
@@ -62,6 +88,22 @@ services:
       - prometheus
     networks:
       - app-network
+  api-gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports: 
+      - "8080:80"
+    environment:
+       - OTEL_EXPORTER_JAEGER_AGENT_HOST=jaeger
+       - OTEL_EXPORTER_JAEGER_AGENT_PORT=6831
+       - OTEL_SERVICE_NAME=api-gateway
+       - OTEL_RESOURCE_ATTRIBUTES=service.namespace=ObservabilityTraining
+    depends_on:
+      - web
+    networks:
+      - app-network
+
 
 networks:
   app-network:

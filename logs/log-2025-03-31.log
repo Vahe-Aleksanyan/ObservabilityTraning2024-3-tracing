@@ -1,0 +1,374 @@
+2025-03-31 14:39:09.4850|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.481 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 9.0.1 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None"
+Query=dbug: 03/31/2025 14:39:09.481 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 9.0.1 initialized 'MyDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:9.0.4+fd2380957bee5cd86f336466af36b08c0163f1a5' with options: None
+2025-03-31 14:39:09.5098|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.509 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection."
+Query=dbug: 03/31/2025 14:39:09.509 RelationalEventId.ConnectionCreating[20005] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Creating DbConnection.
+2025-03-31 14:39:09.5247|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.524 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (14ms)."
+Query=dbug: 03/31/2025 14:39:09.524 RelationalEventId.ConnectionCreated[20006] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Created DbConnection. (14ms).
+2025-03-31 14:39:09.5272|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.527 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/31/2025 14:39:09.527 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-31 14:39:09.5308|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.530 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/31/2025 14:39:09.530 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-31 14:39:09.5812|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.581 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/31/2025 14:39:09.581 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-31 14:39:09.5833|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.583 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/31/2025 14:39:09.583 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-31 14:39:09.5886|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.588 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (4ms)."
+Query=dbug: 03/31/2025 14:39:09.588 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (4ms).
+2025-03-31 14:39:09.5934|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.593 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'."
+Query=dbug: 03/31/2025 14:39:09.593 RelationalEventId.CommandCreating[20103] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Creating DbCommand for 'ExecuteScalar'.
+2025-03-31 14:39:09.5973|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.597 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (3ms)."
+Query=dbug: 03/31/2025 14:39:09.597 RelationalEventId.CommandCreated[20104] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Created DbCommand for 'ExecuteScalar' (3ms).
+2025-03-31 14:39:09.5996|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.599 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (6ms)."
+Query=dbug: 03/31/2025 14:39:09.599 RelationalEventId.CommandInitialized[20106] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Initialized DbCommand for 'ExecuteScalar' (6ms).
+2025-03-31 14:39:09.5996|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.600 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/31/2025 14:39:09.600 RelationalEventId.ConnectionOpening[20000] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opening connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-31 14:39:09.6128|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.612 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/31/2025 14:39:09.612 RelationalEventId.ConnectionOpened[20001] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Opened connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-31 14:39:09.6176|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.617 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+      FROM pg_class AS cls
+      JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+      WHERE
+              cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+              ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+              -- Exclude tables which are members of PG extensions
+              NOT EXISTS (
+                  SELECT 1 FROM pg_depend WHERE
+                      classid=(
+                          SELECT cls.oid
+                          FROM pg_class AS cls
+                                   JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                          WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                      ) AND
+                      objid=cls.oid AND
+                      deptype IN ('e', 'x')
+              )"
+Query=dbug: 03/31/2025 14:39:09.617 RelationalEventId.CommandExecuting[20100] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+      FROM pg_class AS cls
+      JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+      WHERE
+              cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+              ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+              -- Exclude tables which are members of PG extensions
+              NOT EXISTS (
+                  SELECT 1 FROM pg_depend WHERE
+                      classid=(
+                          SELECT cls.oid
+                          FROM pg_class AS cls
+                                   JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                          WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                      ) AND
+                      objid=cls.oid AND
+                      deptype IN ('e', 'x')
+              )
+2025-03-31 14:39:09.6527|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM pg_class AS cls
+JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+WHERE
+        cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+        ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+        -- Exclude tables which are members of PG extensions
+        NOT EXISTS (
+            SELECT 1 FROM pg_depend WHERE
+                classid=(
+                    SELECT cls.oid
+                    FROM pg_class AS cls
+                             JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                    WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                ) AND
+                objid=cls.oid AND
+                deptype IN ('e', 'x')
+        )"
+elapsed=35, commandType=Text, commandTimeout=30, newLine=
+, commandText=SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+FROM pg_class AS cls
+JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+WHERE
+        cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+        ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+        -- Exclude tables which are members of PG extensions
+        NOT EXISTS (
+            SELECT 1 FROM pg_depend WHERE
+                classid=(
+                    SELECT cls.oid
+                    FROM pg_class AS cls
+                             JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                    WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                ) AND
+                objid=cls.oid AND
+                deptype IN ('e', 'x')
+        ), EventId=20101, EventName=Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted
+2025-03-31 14:39:09.6597|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "info: 03/31/2025 14:39:09.659 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+      FROM pg_class AS cls
+      JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+      WHERE
+              cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+              ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+              -- Exclude tables which are members of PG extensions
+              NOT EXISTS (
+                  SELECT 1 FROM pg_depend WHERE
+                      classid=(
+                          SELECT cls.oid
+                          FROM pg_class AS cls
+                                   JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                          WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                      ) AND
+                      objid=cls.oid AND
+                      deptype IN ('e', 'x')
+              )"
+Query=info: 03/31/2025 14:39:09.659 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (35ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT CASE WHEN COUNT(*) = 0 THEN FALSE ELSE TRUE END
+      FROM pg_class AS cls
+      JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+      WHERE
+              cls.relkind IN ('r', 'v', 'm', 'f', 'p') AND
+              ns.nspname NOT IN ('pg_catalog', 'information_schema') AND
+              -- Exclude tables which are members of PG extensions
+              NOT EXISTS (
+                  SELECT 1 FROM pg_depend WHERE
+                      classid=(
+                          SELECT cls.oid
+                          FROM pg_class AS cls
+                                   JOIN pg_namespace AS ns ON ns.oid = cls.relnamespace
+                          WHERE relname='pg_class' AND ns.nspname='pg_catalog'
+                      ) AND
+                      objid=cls.oid AND
+                      deptype IN ('e', 'x')
+              )
+2025-03-31 14:39:09.6699|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.669 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/31/2025 14:39:09.669 RelationalEventId.ConnectionClosing[20002] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closing connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-31 14:39:09.6741|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.674 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (4ms)."
+Query=dbug: 03/31/2025 14:39:09.674 RelationalEventId.ConnectionClosed[20003] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Closed connection to database 'mydatabase' on server 'tcp://db:5432' (4ms).
+2025-03-31 14:39:09.6780|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.678 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'MyDbContext' disposed."
+Query=dbug: 03/31/2025 14:39:09.678 CoreEventId.ContextDisposed[10407] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      'MyDbContext' disposed.
+2025-03-31 14:39:09.6809|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.680 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'mydatabase' on server 'tcp://db:5432'."
+Query=dbug: 03/31/2025 14:39:09.680 RelationalEventId.ConnectionDisposing[20007] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposing connection to database 'mydatabase' on server 'tcp://db:5432'.
+2025-03-31 14:39:09.6836|INFO|MyWebApp.Models.MyDbContext|Executing SQL: "dbug: 03/31/2025 14:39:09.683 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'mydatabase' on server 'tcp://db:5432' (2ms)."
+Query=dbug: 03/31/2025 14:39:09.683 RelationalEventId.ConnectionDisposed[20008] (Microsoft.EntityFrameworkCore.Database.Connection) 
+      Disposed connection to database 'mydatabase' on server 'tcp://db:5432' (2ms).
+2025-03-31 14:39:09.7415|WARN|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+path=/root/.aspnet/DataProtection-Keys, EventId=60, EventName=UsingEphemeralFileSystemLocationInContainer
+2025-03-31 14:39:09.7852|WARN|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|No XML encryptor configured. Key {ffab15df-3274-474d-81db-2cb8c01e24da} may be persisted to storage in unencrypted form.
+KeyId={ffab15df-3274-474d-81db-2cb8c01e24da}, EventId=35, EventName=NoXMLEncryptorConfiguredKeyMayBePersistedToStorageInUnencryptedForm
+2025-03-31 14:39:09.8149|INFO|Microsoft.Hosting.Lifetime|Now listening on: "http://[::]:80"
+address=http://[::]:80, EventId=14, EventName=ListeningOnAddress
+2025-03-31 14:39:09.8168|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+
+2025-03-31 14:39:09.8179|INFO|Microsoft.Hosting.Lifetime|Hosting environment: "Production"
+EnvName=Production
+2025-03-31 14:39:09.8188|INFO|Microsoft.Hosting.Lifetime|Content root path: "/app"
+ContentRoot=/app
+2025-03-31 14:39:21.4322|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+EventId=3, EventName=FailedToDeterminePort
+2025-03-31 14:39:21.4357|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:39:21.4944|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:39:36.3833|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:39:36.4000|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:39:39.0469|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:39:39.0532|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:39:51.3617|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:39:51.3844|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:40:06.3614|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:40:06.3833|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:40:09.1291|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:40:09.1314|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:40:21.3608|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:40:21.3806|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:40:36.3585|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:40:36.3728|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:40:39.1793|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:40:39.1809|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:40:51.3637|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:40:51.3807|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:41:06.3615|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:41:06.3764|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:41:09.2723|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:41:09.2758|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:41:21.3568|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:41:21.3746|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:41:36.3554|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:41:36.3713|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:41:39.3563|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:41:39.3581|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:41:51.3577|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:41:51.3723|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:42:06.3549|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:42:06.3662|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:42:09.4426|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:42:09.4445|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:42:21.3555|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:42:21.3790|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:42:36.3595|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:42:36.3731|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:42:39.5202|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:42:39.5222|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:42:51.3552|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:42:51.3643|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:43:06.3552|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:43:06.3702|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:43:09.6090|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:43:09.6110|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:43:21.3580|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:43:21.3883|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:43:36.3591|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:43:36.3714|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:43:39.6972|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:43:39.6989|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:43:51.3533|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:43:51.3651|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:44:06.3519|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:44:06.3647|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:44:09.7743|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:44:09.7765|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:44:21.3571|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:44:21.3710|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:44:36.3535|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:44:36.3633|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:44:39.8619|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:44:39.8642|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:44:51.3486|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:44:51.3633|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:45:06.3478|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:45:06.3631|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:45:09.9450|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:45:09.9495|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:45:21.3489|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:45:21.3538|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:45:36.3499|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:45:36.3630|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:45:40.0379|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:45:40.0414|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:45:51.3515|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:45:51.3718|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:46:06.3516|INFO|RequestLoggingMiddleware|Request started: "GET" /metrics  [Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+Method=GET, Path=/metrics, QueryString=, Headers=[Accept, application/openmetrics-text; version=0.0.1,text/plain;version=0.0.4;q=0.5,*/*;q=0.1], [Host, web:80], [User-Agent, Prometheus/2.30.0], [Accept-Encoding, gzip], [X-Prometheus-Scrape-Timeout-Seconds, 10]
+2025-03-31 14:46:06.3690|INFO|RequestLoggingMiddleware|Request completed: "GET" /metrics 200 "application/openmetrics-text; version=1.0.0; charset=utf-8"
+Method=GET, Path=/metrics, StatusCode=200, ContentType=application/openmetrics-text; version=1.0.0; charset=utf-8
+2025-03-31 14:46:10.1335|INFO|RequestLoggingMiddleware|Request started: "GET" /health  [Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+Method=GET, Path=/health, QueryString=, Headers=[Accept, */*], [Host, localhost], [User-Agent, curl/7.88.1]
+2025-03-31 14:46:10.1364|INFO|RequestLoggingMiddleware|Request completed: "GET" /health 200 "text/plain"
+Method=GET, Path=/health, StatusCode=200, ContentType=text/plain
+2025-03-31 14:46:17.6728|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+

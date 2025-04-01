@@ -13,12 +13,21 @@ namespace MyWebApp.Models
              _logger = logger;
         }
 
-         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        base.OnConfiguring(optionsBuilder);
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            base.OnConfiguring(optionsBuilder);
+            optionsBuilder.LogTo(query => _logger.LogInformation("Executing SQL: {Query}", query));
+        }
 
-        
-        optionsBuilder.LogTo(query => _logger.LogInformation("Executing SQL: {Query}", query));
-    }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<MyModel>(entity =>
+            {
+                entity.ToTable("mymodels"); 
+                entity.Property(e => e.Id).HasColumnName("id"); 
+                entity.Property(e => e.Name).HasColumnName("name");
+            });
+        }
+
     }
 }

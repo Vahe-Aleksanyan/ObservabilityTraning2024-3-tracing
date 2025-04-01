@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/MyWebApp/MyWebApp.csproj": {}
+    "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/ApiGateway/ApiGateway.csproj": {}
   },
   "projects": {
-    "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/MyWebApp/MyWebApp.csproj": {
+    "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/ApiGateway/ApiGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/MyWebApp/MyWebApp.csproj",
-        "projectName": "MyWebApp",
-        "projectPath": "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/MyWebApp/MyWebApp.csproj",
+        "projectUniqueName": "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/ApiGateway/ApiGateway.csproj",
+        "projectName": "ApiGateway",
+        "projectPath": "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/ApiGateway/ApiGateway.csproj",
         "packagesPath": "/Users/vahealeksanyan/.nuget/packages/",
-        "outputPath": "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/MyWebApp/obj/",
+        "outputPath": "/Users/vahealeksanyan/Desktop/ObservabilityTraning2024-3-tracing/ApiGateway/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vahealeksanyan/.nuget/NuGet/NuGet.Config"
@@ -43,25 +43,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Relational": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.1, )"
-            },
-            "NLog": {
-              "target": "Package",
-              "version": "[5.4.0, )"
-            },
-            "NLog.Extensions.Logging": {
-              "target": "Package",
-              "version": "[5.4.0, )"
-            },
-            "NLog.Web.AspNetCore": {
-              "target": "Package",
-              "version": "[5.4.0, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
-              "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[8.0.11, )"
             },
             "OpenTelemetry": {
               "target": "Package",
@@ -87,13 +71,9 @@
               "target": "Package",
               "version": "[1.11.1, )"
             },
-            "Pomelo.EntityFrameworkCore.MySql": {
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
-            },
-            "prometheus-net.AspNetCore": {
-              "target": "Package",
-              "version": "[8.2.1, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
