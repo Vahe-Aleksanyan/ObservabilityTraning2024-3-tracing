@@ -4,6 +4,6 @@ A web API with PostgreSQL database
 
 Distributed tracing across services
 
-Structured JSON logs
+Structured logs
 
 Preconfigured dashboards
